@@ -59,10 +59,7 @@ public class Send {
 	}
 
 	private boolean checkSMSAgree(Member member) {
-		if (true == member.isAgreeSms()) {
-			return true;
-		}
-		return false;
+		return true == member.isAgreeSms();
 	}
 
 }
