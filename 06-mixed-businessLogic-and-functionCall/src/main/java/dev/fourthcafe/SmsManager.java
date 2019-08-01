@@ -3,7 +3,7 @@ package dev.fourthcafe;
 import java.util.List;
 
 public class SmsManager {
-	public void sendSMS(List<Member> smsMembers) {
-
+	public boolean sendSms(List<Member> smsMembers) {
+		return true;
 	}
 }

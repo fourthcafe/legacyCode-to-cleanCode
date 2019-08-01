@@ -12,4 +12,8 @@ public class Member {
 	public boolean isAgreeSms() {
 		return false;
 	}
+
+	public boolean isSms() {
+		return isAgreeSms();
+	}
 }
